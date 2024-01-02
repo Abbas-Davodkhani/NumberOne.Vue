@@ -1,19 +1,17 @@
 <template>
-  <h1>Hello Vue</h1>
-  <div>
-    <div class="alert alert-primary" role="alert">
-        A siple primary alert-check it out !
-    </div>
-  </div>
+  <Header />
 
   <router-view></router-view>
 </template>
 
 <script>
-
-
+import Header from './components/Header.vue';
 export default {
+  
   name: 'App',
+  components : {
+    Header
+  }
 }
 </script>
 
