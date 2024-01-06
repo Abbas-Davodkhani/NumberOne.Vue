@@ -1,5 +1,5 @@
 <template>
-    <div class="card" style="width: 18rem;">
+    <!-- <div class="card" style="width: 18rem;">
         <div class="card-body">
 
             <p class="card-text">{{product.attributes.description}}</p>
@@ -10,7 +10,15 @@
             <li class="list-group-item"> Sku {{  product.attributes.sku }}</li>
         </ul>
 
-    </div>
+    </div> -->
+
+
+    
+        <th scope="row">{{  }}</th>
+        <td>{{  product.attributes.name }} </td>
+        <td>{{  product.attributes.price }}</td>
+        <td class="btn btn-success">Add To Card</td>
+    <br />
 </template>
 <script>
 
